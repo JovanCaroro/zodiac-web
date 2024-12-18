@@ -1,0 +1,156 @@
+/*index style rule*/
+h3{
+    margin: 0px;
+    font-size: 30px;
+    padding: 0px;
+    color: white;
+}
+.galaxy img{
+    display: inline;
+    margin: 0px;
+    width: 100%;
+    height: 300px;
+    image-rendering: optimizeQuality;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(34, 75, 75);
+    border: 0px;
+    margin: 0 auto;  
+}
+
+.navbar ul{
+    list-style: none;
+    background-color: rgb(34, 75, 75);
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;   
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: rgb(176, 242, 242);
+}
+
+.navbar li{
+    float: right;    
+}
+
+main{
+    margin: 0 auto;
+    
+}
+
+main p{
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: solid;
+}
+
+footer p{
+    color: aliceblue;
+    font-size: 12px;
+    text-decoration: underline;
+    float: right
+}
+
+/* About us style rule*/
+.round{
+    height: 300px;
+    width: 300px;
+    padding: 0px;
+
+}
+section{
+    margin: 6.5%;
+    display: inline-block;
+    justify-content: center;
+}
+
+.hero img{
+    display: inline;
+    width: 100%;
+    height: 200px; 
+}
+
+/*Horoscope style rule*/
+
+table{
+    border: 1px solid #f6f3f3;
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.symbol{
+    height: 100px;
+    width: 100px;
+    border-radius: 1%;
+}
+
+th,td{
+    color: white;
+    font-size: 1.15em;
+    border: 1px solid black;
+}
+
+caption{
+    color: white;
+    font-size: 2em;
+    padding: 2%;
+}
+
+/*Traits style rule*/
+.signtraits{
+    width: 100%
+    
+}
+
+.signtraits th,td{
+    color: white;
+    font-size: 1em;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 1%;
+}
+
+/* Characteristic style rule*/
+.char{
+    width: 100%;
+}
+
+.char th,td{
+    color: white;
+    font-size: 1em;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 1%;
+}
+
+/*Contact style rule*/
+.contInfo{
+    
+    height: 20%;
+    width: 40%;
+    justify-content: center;
+    
+}
+.info{
+    border: 2px solid;
+    border-radius: 10%;
+    display: block;
+}
+.info h1{
+    color: gold;
+    text-decoration: underline;
+    text-align: center;
+}
